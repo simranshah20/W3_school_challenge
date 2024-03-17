@@ -1,0 +1,253 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            background-image: url(../image/wallpaper.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1.5;
+        }
+
+        .bio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+        p {
+            margin-top: 50px;
+        }
+
+        .name {
+            color: white;
+            border-radius: 1rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+            background-color: rgb(51, 48, 48);
+            padding: .8rem;
+            border: 2px solid white;
+        }
+
+        .name:hover {
+            opacity: 0.8;
+
+        }
+
+        .profession {
+            border-radius: 1rem;
+            font-weight: bold;
+            color: white;
+            font-size: 1.5rem;
+            background-color: rgb(51, 48, 48);
+            padding: 1rem 2.7rem 1rem 2.7rem;
+            border: 2px solid white;
+        }
+
+        .profession:hover {
+            opacity: 0.8;
+
+        }
+
+        .link_container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 4rem;
+        }
+
+        a {
+            font-size: 1.5rem;
+            background-color: rgb(51, 48, 48);
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 1rem;
+
+        }
+
+
+        a:hover {
+            color: rgb(33, 33, 205);
+            opacity: 0.9;
+
+        }
+
+        .link_container {
+            margin-bottom: 3rem;
+        }
+
+        .linkedin {
+            padding: 1rem 7rem 1rem 7rem;
+        }
+
+        .linkedin:hover {
+            background-color: #1b7a9f;
+            color: white
+        }
+
+        .youtube {
+            padding: 1rem 7rem 1rem 7rem;
+
+        }
+
+        .youtube:hover {
+            color: white;
+            background-color: red;
+        }
+
+        .insta {
+            padding: 1rem 7rem 1rem 7rem;
+
+        }
+
+        .insta:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .twitter {
+            padding: 1rem 8rem 1rem 8rem;
+
+        }
+
+        .twitter:hover {
+            background-color: #1b7a9f;
+            color: white
+        }
+
+        .subscribe {
+            font-size: 1.2rem;
+            background-color: rgb(51, 48, 48);
+            padding: .5rem 3rem .5rem 3rem;
+            color: white;
+            font-weight: bold;
+            border: 2px solid white;
+            border-radius: 1rem;
+        }
+
+        .subscribe:hover {
+            opacity: 0.8;
+        }
+
+        input {
+            background-color: rgb(51, 48, 48);
+            margin-top: 3rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            /* background-color: blue; */
+            margin-bottom: 1.5rem;
+            border: 2px solid white;
+            border-radius: 1rem;
+
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        button {
+            padding: 1rem 7.5rem 1rem 7.5rem;
+            background-color: rgb(51, 48, 48);
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: 2px solid white;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .div {
+            background-color: white;
+            height: 80vh;
+            width: 80%;
+        }
+
+        img {
+            margin: auto;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            border: 2px solid;
+            border: 5px solid white;
+
+        }
+
+        strong {
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: white;
+            padding: .2rem;
+            border-radius: 7px;
+            opacity: 0.6;
+        }
+
+        strong:hover {
+            background-color: black;
+            color: white;
+
+        }
+
+        .icons a {
+
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 3px;
+            width: 40px;
+            height: 40px;
+            margin-bottom: 2rem;
+        }
+
+        .youtube_icon:hover {
+            background-color: red;
+            color: white;
+            box-shadow: 1px 1px 5px 2px rgba(16, 16, 147, 0.646);
+            transform: translate(0px, -5px);
+            border: transparent;
+        }
+
+        .linkedin_icon:hover {
+            background-color: rgb(59, 59, 173);
+            color: white;
+            box-shadow: 1px 1px 5px 2px rgba(16, 16, 147, 0.646);
+            transform: translate(0px, -5px);
+            border: transparent;
+        }
+
+        .twitter_icon:hover {
+            background-color: rgb(59, 59, 173);
+            color: white;
+            box-shadow: 1px 1px 5px 2px rgba(16, 16, 147, 0.646);
+            transform: translate(0px, -5px);
+            border: transparent;
+        }
+
+        .insta_icon:hover {
+            background-color: red;
+            color: white;
+            box-shadow: 1px 1px 5px 2px rgba(16, 16, 147, 0.646);
+            transform: translate(0px, -5px);
+            border: transparent;
+        }
