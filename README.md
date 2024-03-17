@@ -2,5 +2,4 @@
 
 <h1> WEBSITE Screenshort </h1>
 
-view website from here <a href="https://simranshah20.github.io/W3_school_challeng/">W3_school_challenge</a>
-
+view website from here <a href="https://simranshah20.github.io/W3_school_challenge/">W3school Challenge</a>
