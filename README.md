@@ -2,6 +2,5 @@
 
 <h1> WEBSITE Screenshort </h1>
 
-![Uploading website_demo.png…]()<br>
-view website from here <a href="https://simranshah20.github.io/W3_school_challeng/"></a>
+view website from here <a href="https://simranshah20.github.io/W3_school_challeng/">W3_school_challenge</a>
 
